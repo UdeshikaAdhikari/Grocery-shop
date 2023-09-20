@@ -1,0 +1,94 @@
+/* .dropdown-item {
+    border: 0;
+    clear: both;
+    color: #5c6c75;
+    display: block;
+    font-weight: 400;
+    padding: .125rem .75rem;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+    /* z-index: 99; */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .dropdown button{
+    background-color: rgb(240, 171, 171);
+    color: #0a0a0a;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150%;
+    overflow: auto;
+    background-color: rgb(240, 171, 171);
+    box-shadow: 0px 10px 10px 0px rgb(240, 171, 171);
+  }
+
+  .dropdown button{
+    border: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 9;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 0px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+
+nav{
+    background-color: rgb(240, 171, 171);
+}
+.nav-name{
+    color: #070707;
+}
+.form-control{
+    border: none;
+}
+
+.nav-item{
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+.nav-item a{
+  color: #000000;
+}
+.btn-search-icon{
+    /* border-radius:30px ; */
+    background-color: #f30909;
+    border: none;
+    padding: .100rem;
+    width: 40px;
+}
+
+.btn-dark{
+    /* border-radius:30px ; */
+    background-color: #141414;
+    border: none;
+    padding: .100rem;
+    width: 50px;
+    
+}
+
+.login{
+    position: absolute;
+    margin-left: 970px;
+    /* justify-content:end ; */
+}
+
+.login a{
+  color: #000000;
+}
